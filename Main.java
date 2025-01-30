@@ -16,7 +16,7 @@ public class Main {
         int marks = sc.nextInt();
         char grade = ' ';
 
-        if(marks>=90){
+        if(marks>=90 && marks <=100){
             grade = 'A';
         }else if (marks >= 80 && marks < 90){
             grade = 'B';
